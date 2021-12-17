@@ -1,5 +1,5 @@
 # TaskBoard
-Productivity Manager built using the MERN *(MongoDB, Express.js, React.js and Node.js)*  Stack with GraphQL. Tasks can be noted and maintained throughout the lifetime of the Project. 
+Productivity Manager built using the MERN *(MongoDB, Express.js, React.js and Node.js)*  Stack with TailwindCSS and GraphQL. Tasks can be noted and maintained throughout the lifetime of the Project. 
 <br/><br/>
 *The project is personal project that is still under development.*
 
