@@ -33,3 +33,9 @@ Label: {
     color: String // Color of the Label in HexCode
 }
 ```
+
+### Screenshots
+
+<a href="./screenshots/TaskBoard_ListMenu.jpg"><img src="./screenshots/TaskBoard_ListMenu.jpg" width="75%"/></a>
+<a href="./screenshots/TaskBoard_TaskGroup.jpg"><img src="./screenshots/TaskBoard_TaskGroup.jpg" width="75%"/></a>
+<a href="./screenshots/TaskBoard_NewTask.jpg"><img src="./screenshots/TaskBoard_NewTask.jpg" width="75%"/></a>
