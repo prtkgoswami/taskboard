@@ -1,0 +1,6 @@
+#task-form input[type="checkbox"] ~ label {
+    background-color: white;
+}
+#task-form input[type="checkbox"]:checked ~ label {
+    background-color: green;
+}

@@ -7,7 +7,7 @@ const path = require('path')
 
 async function startServer() {
     const app = express();
-    const buildPath = __dirname + '/frontend/task_manager/build/';
+    const buildPath = __dirname + '/frontend/build/';
     const PORT = process.env.PORT || 8080
 
     const apolloServer = new ApolloServer({
@@ -39,7 +39,7 @@ async function startServer() {
     //     res.send("Hello from Express Apollo Server");
     // })
 
-    app.use(express.static("/frontend/task_manager/public"))
+    app.use(express.static("/frontend/public"))
     app.use(express.static(buildPath))
     // app.get('/', function (req,res) {
     //     res.sendFile(path.join(buildPath, "index.html"));
