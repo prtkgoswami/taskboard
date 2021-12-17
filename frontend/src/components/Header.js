@@ -12,7 +12,7 @@ function Header({title}) {
         <>
             <header className="w-full pt-3 pb-4 px-5 bg-gray-800 flex flex-row justify-between">
                 <div id="header-left" className="flex flex-col">
-                    <p className="text-md text-left text-white font-semibold text-mono uppercase mb-3">task manager</p>
+                    <p className="text-md text-left text-white font-semibold text-mono uppercase mb-3">task board</p>
                     <p className="text-2xl text-left text-gray-300 font-mono">
                         <Link to="/" className="transition-colors duration-200 hover:text-white">Home</Link> {(title !== undefined) && `/ ${title}`}
                     </p>
